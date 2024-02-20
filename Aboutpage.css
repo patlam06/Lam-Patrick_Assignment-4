@@ -1,0 +1,71 @@
+body{
+  background:SeaShell;
+  font-family: "Verdana", sans-serif;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: left;
+  padding: 8px;
+}
+
+li a {
+  display: block;
+  color: lightslategray;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  border-bottom: 3px solid transparent;
+}
+
+li a:hover {
+  border-bottom: 3px solid darkolivegreen;
+}
+
+li a:active {
+  border-bottom: 3px solid darkolivegreen;
+}
+
+.photo2 {
+  background-color: ghostwhite;
+  width: 1000px;
+  height: 850px;
+  border: 1px solid black;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.goals {
+  color: lightslategray;
+  position: absolute;
+  top: 40%;
+  left: 67%;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contact{
+  color: lightslategray;
+  position: absolute;
+  top: 60%;
+  left: 67%;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}

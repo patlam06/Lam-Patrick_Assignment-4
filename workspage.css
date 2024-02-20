@@ -1,0 +1,95 @@
+body{
+  background:SeaShell;
+  font-family: "Verdana", sans-serif;
+  height: 100%;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: left;
+  padding: 8px;
+}
+
+li a {
+  display: block;
+  color: lightslategray;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  border-bottom: 3px solid transparent;
+}
+
+li a:hover {
+  border-bottom: 3px solid darkolivegreen;
+}
+
+li a:active {
+  border-bottom: 3px solid darkolivegreen;
+}
+
+.work1 {
+  position: absolute;
+  top: 25%;
+  right: 70%;
+  background-color: lightslategray;
+  color: ghostwhite;
+  text-align: center;
+  vertical align: middle;
+  width: 500px;
+  height: 200px;
+}
+
+.work3 {
+  position: absolute;
+  top: 75%;
+  right: 70%;
+  background-color: lightslategray;
+  color: ghostwhite;
+  text-align: center;
+  vertical align: middle;
+  width: 500px;
+  height: 200px;
+}
+.work2 {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  background-color: lightslategray;
+  color: ghostwhite;
+  text-align: center;
+  vertical align: middle;
+  width: 500px;
+  height: 200px;
+}
+.work4 {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  background-color: lightslategray;
+  color: ghostwhite;
+  text-align: center;
+  vertical align: middle;
+  width: 500px;
+  height: 200px;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background-color: lightslategray;
+  color: ghostwhite;
+  text-align: center;
+  vertical align: middle;
+}
